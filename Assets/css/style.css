@@ -1,0 +1,63 @@
+/* Universal Styling */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Element Selectors */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #008891;
+  }
+
+nav a {
+    padding: 10px 12px;
+    margin-right: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+}  
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 10px;
+    background-color: #00587A;
+    color: white;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+header img {
+    max-width: 400px;
+    border-radius: 35px;
+    border: solid 10px #0F3057;
+    box-shadow: 7px 7px 10px 10px #2a4361;
+}
+
+main {
+    padding-top: 10px;
+    background-color: #E7E7DE;
+    min-height: 500px;
+}
+
+footer {
+    padding-top: 15px; 
+    background-color: #0F3057;
+    min-height: 100px;
+    color: white;
+    text-align: center;
+}
+
+/* Class Selectors */
+.focal-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
