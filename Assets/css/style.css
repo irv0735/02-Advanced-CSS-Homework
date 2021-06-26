@@ -38,6 +38,10 @@ h2 {
     margin: auto 15px 20px auto;
 }
 
+h3 {
+    font-size: 300%;
+}
+
 header img {
     max-width: 400px;
     border-radius: 35px;
@@ -109,7 +113,7 @@ footer {
 .general-project {
     width: 40%;
     min-width: 230px;
-    margin: 10px;
+    margin: 20px;
     border: solid 5px;
 }
 
@@ -119,8 +123,29 @@ footer {
     border-right: solid #008891;
 }
 
+#contact h3 {
+    margin-left: 10px;
+    padding-left: 20px;
+    border-left: solid #008891;
+}
 
-@media screen and (max-width: 768px) {
+#contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+}
+
+#contact ul li {
+    padding: 10px 20px;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 925px) {
     .general-project {
         width: 100%;
         margin: 20px;
