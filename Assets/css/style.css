@@ -33,12 +33,12 @@ header {
 }
 
 h1 {
-    font-size: 300%;
+    font-size: 500%;
     margin: 10px auto;
 }
 
 h2 {
-    margin: auto 15px 20px auto;
+    margin: auto 15px;
 }
 
 h3 {
@@ -116,6 +116,14 @@ footer {
     border-left: solid #008891;
 }
 
+#about h3 {
+    border-bottom: dashed #008891;
+}
+
+#contact h3 {
+    border-top: dashed #008891;
+}
+
 #about div {
     margin-right: 40px;
     width: 80%;
@@ -132,6 +140,8 @@ footer {
     margin-right: 10px;
     padding-right: 20px;
     border-right: solid #008891;
+    border-bottom: dashed #008891;
+    border-top: dashed #008891;
 }
 
 #contact ul {
