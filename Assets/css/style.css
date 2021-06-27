@@ -15,14 +15,6 @@ nav {
     background-color: #008891;
   }
 
-nav a {
-    padding: 10px 12px;
-    margin-right: 15px;
-    color: white;
-    font-weight: 700;
-    font-size: larger;
-}  
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +67,19 @@ footer {
     padding: 10px auto;
 }
 
+.nav-link {
+    text-decoration: none;
+    padding: 10px 12px;
+    margin-right: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: #0F3057;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -87,15 +92,23 @@ footer {
 .primary-project {
     position: relative;
     width: 100%;
+    height: 300px;
     margin: 20px 0;
     border: solid 5px;
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .general-project {
     position: relative;
+    height: 200px;
     width: 45%;
     margin: 20px 0;
     border: solid 5px;
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .primary-project p, .general-project p {
@@ -103,6 +116,27 @@ footer {
     bottom: 3px;
     left: 5px;
     margin: 0;
+}
+
+.mini-project {
+    background-image: url(../images/Mini-Project.png);
+}
+
+.bio-page {
+    background-image: url(../images/Bio-Page.png);
+}
+
+.contact-link {
+    color: #b15566;
+    text-decoration: none;
+    border: solid #66b155;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.contact-link:hover {
+    background-color: #66b155;
+    color: white;
 }
 
 /* ID Selectors */
@@ -124,6 +158,7 @@ footer {
 
 #contact h3 {
     border-top: dashed #008891;
+    padding-top: 20px;
 }
 
 #about div {
@@ -140,6 +175,7 @@ footer {
 
 #portfolio h3 {
     margin-right: 10px;
+    padding-top: 20px;
     padding-right: 20px;
     border-right: solid #008891;
     border-bottom: dashed #008891;
@@ -172,12 +208,19 @@ footer {
     #portfolio {
         flex-direction: column;
     }
+
     #about, #contact {
         flex-direction: column-reverse;
     }
+
     #about h3, #contact h3 {
         border-left: none;
     }
+
+    #about div {
+        margin-left: 50px;
+    }
+
     #portfolio h3 {
         border-top: none;
         border-right: none;
