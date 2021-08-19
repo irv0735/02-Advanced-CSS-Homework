@@ -19,7 +19,7 @@ Screenshot of site:
 ![Portfolio-screenshot](/Assets/siteLayoutScreenshot.png)
 
 Links: 
-* repo - https://github.com/irv0735/02-Advanced-CSS-Homework
-* "live site" - https://irv0735.github.io/02-Advanced-CSS-Homework/
+* repo - https://github.com/irv0735/02-Advanced-CSS-Portfolio
+* "live site" - https://irv0735.github.io/02-Advanced-CSS-Portfolio/
 
 
