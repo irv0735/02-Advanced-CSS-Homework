@@ -118,7 +118,6 @@ footer {
     margin: 20px 0;
     border: solid 5px #0F3057;
     border-radius: 10px;
-    background-size: 200%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -130,12 +129,19 @@ footer {
     margin: 0;
 }
 
-.mini-project {
-    background-image: url(../images/Mini-Project.png);
+.rsn-project {
+    background-size: 100%;
+    background-image: url(../images/RSN-Financial.png);
 }
 
-.bio-page {
-    background-image: url(../images/Bio-Page.png);
+.coding-quiz {
+    background-size: 200%;
+    background-image: url(../images/Coding-Quiz.png);
+}
+
+.weather-app {
+    background-size: 200%;
+    background-image: url(../images/Weather-App.png);
 }
 
 .caption {
