@@ -112,6 +112,7 @@ footer {
 .project:hover {
     border-color: #66b155;
 }
+
 .project:hover .caption {
     background-color: #016269d8;
     padding: 30px;
