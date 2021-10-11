@@ -60,6 +60,13 @@ footer {
 }
 
 /* Class Selectors */
+.caption-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .focal-heading {
     display: flex;
     flex-direction: column;
@@ -129,6 +136,16 @@ footer {
     margin: 0;
 }
 
+.ouroboros {
+    background-size: 100%;
+    background-image: url(../images/Ouroboros.png);
+}
+
+.talking-tech {
+    background-size: 100%;
+    background-image: url(../images/Talking-Tech.png);
+}
+
 .rsn-project {
     background-size: 100%;
     background-image: url(../images/RSN-Financial.png);
@@ -150,6 +167,10 @@ footer {
     font-size: xx-large;
     padding: 10px;
     border-radius: 5px;
+}
+
+.gh-icon:hover {
+    transform: scale(1.15);
 }
 
 .contact-link {
