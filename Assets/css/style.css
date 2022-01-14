@@ -137,6 +137,11 @@ footer {
     margin: 0;
 }
 
+.friends-of-toto {
+    background-size: 100%;
+    background-image: url(../images/Friends-Of-Toto.png);
+}
+
 .ouroboros {
     background-size: 100%;
     background-image: url(../images/Ouroboros.png);
