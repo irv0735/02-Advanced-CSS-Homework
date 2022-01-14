@@ -109,6 +109,20 @@ footer {
     background-repeat: no-repeat;
 }
 
+.project {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+
 .project:hover {
     border-color: #66b155;
 }
@@ -117,6 +131,16 @@ footer {
     background-color: #016269d8;
     padding: 30px;
     font-weight: bolder;
+}
+
+.caption:hover {
+    text-decoration: underline;
+}
+
+.project:hover .hide {
+    display: block;
+    color: white;
+    background-color: #016269d8;
 }
 
 .general-project {
@@ -130,12 +154,12 @@ footer {
     background-repeat: no-repeat;
 }
 
-.primary-project p, .general-project p {
+/* .primary-project p, .general-project p {
     position: absolute;
     bottom: 3px;
     left: 5px;
     margin: 0;
-}
+} */
 
 .friends-of-toto {
     background-size: 100%;
