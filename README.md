@@ -15,11 +15,8 @@ Overview of work:
 * Applied a color palette with some flare 
 * Used some creative leeway to deviate from the exact layout shown in the assets. This was an intentional design decision to test some additional skills and have a more unique solution to the assignment.
 
-Screenshot of site: 
-![Portfolio-screenshot](./Assets/portfolio-screenshot.png)
-
 Links: 
-* repo - https://github.com/irv0735/02-Advanced-CSS-Portfolio
-* "live site" - https://irv0735.github.io/02-Advanced-CSS-Portfolio/
+* repo - https://github.com/irv0735/Nate-Irvin-Portfolio
+* "live site" - https://irv0735.github.io/Nate-Irvin-Portfolio/
 
 
